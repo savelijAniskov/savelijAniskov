@@ -1,0 +1,23 @@
+what = input("Choose an action(+; -; *; /): ")
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+if what == "+":
+    num3 = num1 + num2
+    print( num3 )
+
+elif what == "-":
+    num3 = num1 - num2
+    print( num3 )
+    
+elif what == "*":
+    num3 = num1 * num2
+    print( num3 )
+    
+elif what == "/":
+    num3 = num1 / num2
+    print( num3 )
+
+else:
+    print("This operation is not listed!")
